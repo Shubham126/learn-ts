@@ -1,3 +1,5 @@
+//4
+
 function getValue(kind: string | number){
     if(typeof kind === 'string'){
 

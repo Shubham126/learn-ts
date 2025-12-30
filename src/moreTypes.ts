@@ -1,3 +1,5 @@
+// 5
+
 // never type
 // Learn where type assertion fails
 
@@ -5,6 +7,7 @@ let response: any = "42";
 
 // type assertion fails here, everything is correct, but this happens when we load variables from env or external sources
 // so we need to give assurance to typescript and make it belive us on the type we are using
+
 let numbericLength:number = (response as string).length;
 
 type Book = {
@@ -41,7 +44,6 @@ newValue = true;
 if(typeof newValue === "string"){
     newValue.toUpperCase(); // no error now
 }
-
 
 //try catch block
 
