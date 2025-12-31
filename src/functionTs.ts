@@ -1,3 +1,5 @@
+//8
+
 function makeShape(type: string, sides: number){
     console.log(`Making a ${type} with ${sides} sides`);
 }

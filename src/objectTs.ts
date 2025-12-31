@@ -1,3 +1,5 @@
+//7
+
 const shape = {
     name: "rectangle",
     sides: 4,
